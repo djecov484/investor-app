@@ -1,0 +1,36 @@
+[
+    {
+        "Rank": "1",
+        "Name": "Apple",
+        "Market Cap": "$2.877T",
+        "Country": "USA" 
+    },
+
+    {
+        "Rank": "2",
+        "Name": "Microsoft",
+        "Market Cap": "$2.400T",
+        "Country": "USA" 
+    },
+
+    {
+        "Rank": "3",
+        "Name": "Saudi Aramco",
+        "Market Cap": "$1.935T",
+        "Country": "S Arabia" 
+    },
+
+    {
+        "Rank": "4",
+        "Name": "Google",
+        "Market Cap": "$1.889T",
+        "Country": "USA" 
+    },
+
+    {
+        "Rank": "5",
+        "Name": "Amazon",
+        "Market Cap": "$1.683T",
+        "Country": "USA" 
+    }
+]

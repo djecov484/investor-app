@@ -6,6 +6,7 @@ const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
 const morgan = require("morgan");
+const bodyParser = require("body-parser");
 
 // DATABASE CONNECTION
 ////////////////////////////////
@@ -37,7 +38,8 @@ const Rankings = mongoose.model("Rankings", RankingsSchema)
 app.use(cors()); // to prevent cors errors, open access to all origins
 app.use(morgan("dev"))
 app.use(express.json()); // parse json bodies
-
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 //ROUTES///
 //Test route
 app.get("/", (req, res) => {
